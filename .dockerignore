@@ -1,0 +1,8 @@
+# Exclude all files and folders
+**
+
+# Excuse the Go Project Files (Include)
+!dockerfile
+!docker-compose.yml
+!Readme.md
+!index.php

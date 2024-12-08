@@ -9,7 +9,7 @@ This document is about establishing a PHP development environment using a docker
 [Get Docker](https://www.docker.com/)
 
 
-### Install WSL 2 [Why?](!https://learn.microsoft.com/en-us/windows/wsl/)
+### Install WSL 2 [Why?](https://learn.microsoft.com/en-us/windows/wsl/)
 ```cmd
 wsl --install
 ```

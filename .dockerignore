@@ -4,5 +4,6 @@
 # Excuse the Go Project Files (Include)
 !dockerfile
 !docker-compose.yml
-!Readme.md
+!README.md
+!LICENSE
 !index.php

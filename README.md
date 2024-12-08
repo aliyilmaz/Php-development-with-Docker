@@ -14,8 +14,15 @@ This document is about establishing a PHP development environment using a docker
 wsl --install
 ```
 
+### Start the server
+Open the command client in the directory where `dockerfile` and `docker-compose.yml` files are located and start the command below.
+
+```cmd
+docker-compose up -d
+```
+
 ### Stop the server
-Open the command client in the directory where `dockerfile` and `docker-Compose.yml` files are located and stop the command below.
+Open the command client in the directory where `dockerfile` and `docker-compose.yml` files are located and stop the command below.
 
 ```cmd
 docker-compose down

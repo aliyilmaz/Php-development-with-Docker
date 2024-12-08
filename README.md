@@ -42,7 +42,7 @@ Address: 127.0.0.1:8080 // Line 5th in docker-compose.yml.
 ```
 
 ### If you want to define the project directory in another position
-For this, the 7th line in the `docker-compose.yml file must be updated.If you pay attention to this line, there are two different ways separated by `:`: The first way is the directory of the directory you want to define, and the second is the directory of the Docker server.You should organize the first way.By default, the location of Docker files is defined.
+For this, the 7th line in the `docker-compose.yml` file must be updated.If you pay attention to this line, there are two different ways separated by `:`. The first way is the directory of the directory you want to define, and the second is the directory of the Docker server.You should organize the first way.By default, the location of Docker files is defined.
 ```php
 .:/var/www/html
 ```

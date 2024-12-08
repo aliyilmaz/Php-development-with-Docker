@@ -6,16 +6,14 @@ services:
     volumes:
       - .:/var/www/html
     depends_on:
-      - mysql_db
+      - mysql_server
 
-  mysql_db:
+  mysql_server:
     image: mysql:latest
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: testdb
-      MYSQL_USER: user
-      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes' 
+      MYSQL_ROOT_HOST: '%'
     volumes:
       - db_data:/var/lib/mysql
     ports:
@@ -27,11 +25,11 @@ services:
     ports:
       - "8081:80"  
     environment:
-      PMA_HOST: mysql_db
+      PMA_HOST: mysql_server
       PMA_PORT: 3306
       PMA_ARBITRARY: 1
     depends_on:
-      - mysql_db
+      - mysql_server
 
 volumes:
   db_data:

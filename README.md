@@ -31,9 +31,7 @@ docker-compose down
 ### Reaching the phpmyadmin panel
 ```php
 Address: 127.0.0.1:8081 // Line 28th in docker-compose.yml.
-Server Name: mysql_db // Line 30th in docker-compose.yml.
-Username: user // Line 17th in docker-compose.yml.
-Password: root // Line 18th in docker-compose.yml.
+Server Name: mysql_server // Line 30th in docker-compose.yml.
 ```
 
 ### Accessing the HTDOCS directory

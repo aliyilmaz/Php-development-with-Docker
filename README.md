@@ -1,5 +1,5 @@
 ## What is Php development with Docker?
-This document is about establishing a PHP development environment using a docker.
+This document covers setting up a PHP development environment using docker on Windows 10.
 
 ### What's in it?
 + Php 8.0 (APACHE)

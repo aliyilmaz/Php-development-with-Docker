@@ -1,4 +1,4 @@
-## What is Docker.php?
+## What is Php development with Docker?
 This document is about establishing a PHP development environment using a docker.
 
 ### What's in it?

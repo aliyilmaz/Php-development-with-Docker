@@ -15,14 +15,14 @@ wsl --install
 ```
 
 ### Start the server
-Open the command client in the directory where `dockerfile` and `docker-compose.yml` files are located and start the command below.
+Open the command prompt in the directory where the `dockerfile` and `docker-compose.yml` files are located and start the server by running the following command.
 
 ```cmd
 docker-compose up -d
 ```
 
 ### Stop the server
-Open the command client in the directory where `dockerfile` and `docker-compose.yml` files are located and stop the command below.
+Open a command prompt in the directory where the `dockerfile` and `docker-compose.yml` files are located and stop the server by running the following command.
 
 ```cmd
 docker-compose down
